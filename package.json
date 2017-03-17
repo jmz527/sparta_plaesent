@@ -1,0 +1,19 @@
+{
+  "name": "sparta_plaesent",
+  "version": "1.0.0",
+  "description": "This is a simple, responsive webpage with a carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmz527/sparta_plaesent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmz527/sparta_plaesent/issues"
+  },
+  "homepage": "https://github.com/jmz527/sparta_plaesent#readme"
+}
