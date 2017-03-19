@@ -5,29 +5,20 @@ import Carousel from './carousel';
 import Grid from './masonry_grid';
 import Footer from './footer';
 
-const Main = () => (
-  <div className="container-fluid">
-    <div className="row">
-      <div className="col s12">
-        <Header />
-      </div>
-    </div>
-    <div className="row">
-      <div className="col s12">
-        <Carousel />
-      </div>
-    </div>
-    <div className="row">
-      <div className="col s12">
-        <Grid />
-      </div>
-    </div>
-    <div className="row">
-      <div className="col s12">
-        <Footer />
-      </div>
-    </div>
+// FONT TEST
+  	// <p className="font-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio autem quidem quod corporis. Blanditiis beatae temporibus totam, a quam obcaecati sit, dolorum, commodi quos ad fugit voluptas ea reprehenderit ratione!</p>
 
+  	// <p className="font-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio labore reiciendis itaque in quas incidunt illo doloribus deleniti vitae porro officia, iure repellendus repudiandae ratione tempora nobis esse quo sapiente.</p>
+
+  	// <p className="font-three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio labore reiciendis itaque in quas incidunt illo doloribus deleniti vitae porro officia, iure repellendus repudiandae ratione tempora nobis esse quo sapiente.</p>
+
+
+const Main = () => (
+  <div>
+    <Header />
+    <Carousel />
+    <Grid />
+    <Footer />
   </div>
 );
 
