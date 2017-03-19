@@ -7,24 +7,26 @@ import Footer from './footer';
 
 const Main = () => (
   <div className="container-fluid">
-
-  	<div className="row">
-  		<div className="col s3">s3</div>
-  		<div className="col s3">s3</div>
-  		<div className="col s3">s3</div>
-  		<div className="col s3">s3</div>
-  	</div>
-
-
-{/*
-  	<Header className="row" />
-
-  	<Carousel className="row" />
-
-  	<Grid className="row" />
-
-  	<Footer className="row" />
-*/}
+    <div className="row">
+      <div className="col s12">
+        <Header />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col s12">
+        <Carousel />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col s12">
+        <Grid />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col s12">
+        <Footer />
+      </div>
+    </div>
 
   </div>
 );

@@ -6,7 +6,7 @@ import Main from './components/main';
 
 
 // import all styles
-// import './materialize.css';
-import './style.css';
+import './public/materialize.css';
+import './public/style.css';
 
 ReactDOM.render(<Main />, document.getElementById('root'));

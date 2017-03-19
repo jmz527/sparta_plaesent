@@ -32,7 +32,7 @@ gulp.task('build-css', function() {
             }
         ))
         .pipe(plugins.cssmin())
-        .pipe(gulp.dest('app/.')).on('error', gutil.log);
+        .pipe(gulp.dest('app/public/.')).on('error', gutil.log);
 });
 
 // Default task
