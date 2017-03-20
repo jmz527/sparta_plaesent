@@ -26,19 +26,29 @@ class Carousel extends React.Component {
 
     var sliderChildren = []
 
-    sliderChildren = imgs.map(function(img) {
-      return (<div className="hero-img" style={{maxHeight: 500, backgroundImage: `url('/imgs/`+img.src+`')`}}><h3>1</h3></div>)
+    sliderChildren = imgs.map(function(img, idx) {
+      console.log(idx);
+
+      return (
+              <div key={idx} className="hero-wrap">
+                <div className="hero-img" style={{backgroundImage: `url('/imgs/`+img.src+`')`}}>
+                  <h3>1</h3>
+                </div>
+              </div>
+              )
       // return (
-      //   <div style={{maxHeight: 500}}>
-      //     <img style={{width: '100%'}} src={`/imgs/`+img.src} alt=""/>
+      //   <div key={idx} style={{position: 'relative', maxHeight: 500}}>
+      //     <img style={{height: '100%', width: '100%'}} src={`/imgs/`+img.src} alt=""/>
       //   </div>
       // )
     })
 
     return (
-      <Slider {...settings} className="container-fluid" id="carousel">
-        {sliderChildren}
-      </Slider>
+      <div className="container-fluid" id="carousel">
+        <Slider {...settings}>
+          {sliderChildren}
+        </Slider>
+      </div>
     );
   }
 }

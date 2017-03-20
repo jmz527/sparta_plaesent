@@ -33,9 +33,9 @@ class Grid extends React.Component {
       {title: 'Artisanal iconic cutting-edge business class.', presenter: 'LOREM IPSUM', src: 'grid-img-6.png', alt: 'img-6', date: 'JANUARY 12 2017'},
   	]
 
-    var childElements = elements.map(function(element){
+    var childElements = elements.map(function(element, idx){
        return (
-          <Image title={element.title} pres={element.presenter} src={element.src} alt={element.alt} date={element.date} />
+          <Image key={idx} title={element.title} pres={element.presenter} src={element.src} alt={element.alt} date={element.date} />
         );
     });
 
@@ -44,16 +44,18 @@ class Grid extends React.Component {
                   // onRemoveComplete={removedItems => this.handleRemoveComplete(removedItems)}
 
     return (
-		<div id="masongry_grid" className="container">
-      <Masonry className="row"
-          className={'my-gallery-class'} // default ''
-          elementType={'ul'} // default 'div'
-          options={masonryOptions} // default {}
-          disableImagesLoaded={false} // default false
-          updateOnEachImageLoad={true} // default false and works only if disableImagesLoaded is false
-      >
-          {childElements}
-      </Masonry>
+		<div id="masongry_grid" className="container-fluid">
+      <div className="row">
+        <Masonry
+            className={'my-gallery-class'} // default ''
+            elementType={'ul'} // default 'div'
+            options={masonryOptions} // default {}
+            disableImagesLoaded={false} // default false
+            updateOnEachImageLoad={true} // default false and works only if disableImagesLoaded is false
+        >
+            {childElements}
+        </Masonry>
+      </div>
 		</div>
     );
   }

@@ -3,28 +3,49 @@
 
 html, body, div#root, div#react-root {
   height: 100%;
+  width: 100%;
+  min-height: 500px;
 }
 
 body {
   background-color: #fff;
-  font-family: sans-serif;
+  color: #767676;
+  font-family: "Arial", sans-serif;
 }
 
-
-.font-one {
-  font-size: 30px;
+h1, h2, h3, h4, h5, h6 {
   font-family: "Springville";
-  color: #555;
 }
 
-.font-two {
-  font-size: 30px;
-  font-family: "Adobe Caslon Pro";
-  color: #333;
+a {
+	color: #767676;
 }
 
-.font-three {
-  font-size: 30px;
-  font-family: "Arial";
-  color: #333;
+main {
+	padding-top: 50px;
 }
+
+.row .col {
+	padding: 0;
+}
+.row {
+	margin-bottom: 0;
+}
+
+// .font-one {
+//   font-size: 30px;
+//   font-family: "Springville";
+//   color: #555;
+// }
+
+// .font-two {
+//   font-size: 30px;
+//   font-family: "Adobe Caslon Pro";
+//   color: #333;
+// }
+
+// .font-three {
+//   font-size: 30px;
+  // font-family: "Arial";
+//   color: #333;
+// }
