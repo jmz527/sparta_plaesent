@@ -1,8 +1,12 @@
 /* FOOTER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
+	padding: 65px 0;
 	display: flex;
 	justify-content: center;
+
+	a, span { color: #131313; }
+	a { text-decoration: underline; }
 
 	span { text-transform: uppercase; }
 	span.foot-text {}
