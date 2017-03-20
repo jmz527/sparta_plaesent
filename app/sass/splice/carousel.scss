@@ -1,7 +1,19 @@
 /* CAROUSEL STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #carousel {
-	height: 400px;
+	height: auto;
+	overflow: hidden;
+
+	div.carousel-flex {
+		display: flex;
+		justify-content: center;
+	}
+
+	div.carousel-wrap {
+		width: 100%;
+		// min-height: 100px;
+		max-width: 1440px;
+	}
 
 	.hero-wrap {
 
@@ -9,7 +21,7 @@
 
 	.hero-img {
 		background-size: cover;
-		background-position: 50% 50%;
+		// background-position: 50% 50%;
 		height: 400px;
 		// position: absolute;
 		// min-height: 300px;

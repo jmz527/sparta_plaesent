@@ -9,11 +9,11 @@ const Main = () => (
   <main>
     <Header />
     <Carousel />
-
-
-{/* 
     <Grid />
     <Footer />
+
+{/* 
+
 
  */}
 

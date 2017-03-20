@@ -16,10 +16,12 @@ class Carousel extends React.Component {
       infinite: true,
       lazyLoad: 'ondemand',
       speed: 500,
+      swipe: true,
       slidesToShow: 1,
       slidesToScroll: 1
     },
     imgs = [
+      {type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.'},
       {type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-1.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 1 with our special guest, director Peter Lindberg.'},
       {type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.'}
     ];
@@ -31,8 +33,8 @@ class Carousel extends React.Component {
 
       return (
               <div key={idx} className="hero-wrap">
-                <div className="hero-img" style={{backgroundImage: `url('/imgs/`+img.src+`')`}}>
-                  <h3>1</h3>
+                <div className="hero-img" style={{backgroundImage: `url('/imgs/`+img.src+`')`, backgroundPosition: `50% 25%`}}>
+                  <h3>{idx}</h3>
                 </div>
               </div>
               )
@@ -44,10 +46,22 @@ class Carousel extends React.Component {
     })
 
     return (
-      <div className="container-fluid" id="carousel">
-        <Slider {...settings}>
-          {sliderChildren}
-        </Slider>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col s12" id="carousel">
+
+            <div className="carousel-flex">
+              <div className="carousel-wrap">
+
+                <Slider {...settings}>
+                  {sliderChildren}
+                </Slider>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     );
   }

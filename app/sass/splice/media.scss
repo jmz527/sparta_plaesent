@@ -5,37 +5,32 @@
 
 /*==========  Mobile First Method  ==========*/
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 321px) {
 
 }
 
+
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 601px) {
 
 	header {
 		height: 100px;
-		padding: 34px 0 0 0;
+		padding: 45px 0 0 0;
 	}
 
 	main { padding-top: 100px; }
 
-	
-
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 993px) {
 
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1201px) {
 
 }
 
@@ -53,16 +48,13 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
+@media only screen and (max-width : 600px) {
+	div.carousel-wrap {
+		height:calc(100vw / 1.33333);
+	}
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 321px) {
 
 }
