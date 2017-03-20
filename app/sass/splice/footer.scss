@@ -1,5 +1,9 @@
 /* FOOTER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
-	
+	display: flex;
+	justify-content: center;
+
+	span { text-transform: uppercase; }
+	span.foot-text {}
 }

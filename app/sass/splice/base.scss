@@ -4,7 +4,7 @@
 html, body, div#root, div#react-root {
   height: 100%;
   width: 100%;
-  min-height: 500px;
+  // min-height: 500px;
 }
 
 body {
@@ -15,7 +15,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Springville";
+  color: #131313;
+  margin: 0;
 }
+
+h1 {}
+
+h2 { font-size: 48px; }
 
 a {
 	color: #767676;
