@@ -8,6 +8,13 @@ footer {
 	a, span { color: #131313; }
 	a { text-decoration: underline; }
 
-	span { text-transform: uppercase; }
-	span.foot-text {}
+	span {
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	span.foot-text {
+		text-align: center;
+	}
+
+	br { display: none; }
 }

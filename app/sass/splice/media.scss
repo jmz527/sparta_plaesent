@@ -22,6 +22,8 @@
 
 	main { padding-top: 100px; }
 
+	#side-menu { padding: 10px 10% 7px 0; }
+
 }
 
 /* Medium Devices, Desktops */
@@ -54,6 +56,8 @@
 	div.slick-track {
 		height:calc(100vw / 1.33333);
 	}
+
+	footer br { display: inherit; }
 }
 
 /* Extra Small Devices, Phones */

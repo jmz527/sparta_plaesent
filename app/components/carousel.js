@@ -10,7 +10,7 @@ class Carousel extends React.Component {
 
   render() {
     var settings = {
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
       dots: true,
       infinite: true,
@@ -29,20 +29,18 @@ class Carousel extends React.Component {
     var sliderChildren = []
 
     sliderChildren = imgs.map(function(img, idx) {
-      console.log(idx);
-
       return (
               <div key={idx} className="hero-wrap">
                 <div className="hero-img" style={{backgroundImage: `url('/imgs/`+img.src+`')`, backgroundPosition: `50% 25%`}}>
-                  <h3>{idx}</h3>
+                  <div className="hero-text">
+                    <h3>{img.type}:<br/>{img.title}</h3>
+                    <h5>{img.date}</h5>
+                    <p>{img.desc}</p>
+                  </div>
                 </div>
+                <div className="scrim"></div>
               </div>
               )
-      // return (
-      //   <div key={idx} style={{position: 'relative', maxHeight: 500}}>
-      //     <img style={{height: '100%', width: '100%'}} src={`/imgs/`+img.src} alt=""/>
-      //   </div>
-      // )
     })
 
     return (

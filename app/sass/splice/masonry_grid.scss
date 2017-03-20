@@ -19,6 +19,11 @@
 
 	// img.grid-img {  }
 
+	.grid-heading:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
 	date.grid-date {
 		color: #767676;
 		font-size: 11px;

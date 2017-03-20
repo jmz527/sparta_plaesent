@@ -12,7 +12,7 @@ class Footer extends React.Component {
   	return (
 		<footer className="container">
 			<span className="foot-text">
-				&#169; {year} — Sparta Plaesent - <a href="#!">instagram</a> - <a href="#!">facebook</a> - <a href="#!">twitter</a>
+				&#169; {year} <br/> — <br/> Sparta Plaesent <br/> - <a href="#!">instagram</a> - <a href="#!">facebook</a> - <a href="#!">twitter</a> -
 			</span>
 		</footer>
 	);

@@ -7,13 +7,11 @@ header {
 	left: 0;
 	right: 0;
 	height: 50px;
-	padding: 20px 0 0 0;
+	padding: 10px 0 0;
 	z-index: 100;
 
 	#logo { padding-left: 10% }
-	#side-menu {
-		padding: 7px 10% 7px 0;
-	}
+	#side-menu { padding: 7px 10% 7px 0; }
 
 	#logo a {
 		float: left;
