@@ -11,7 +11,7 @@ class Layout extends React.Component {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <title>{this.props.title}</title>
-          <meta name="description" content="" />
+          <meta name="description" content="This is a simple, responsive webpage with a carousel" />
 
         {/*  Mobile Specific Metas - Use minimum-scale=1 to enable GPU rasterization
          ==================================================================*/}
@@ -22,10 +22,9 @@ class Layout extends React.Component {
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
 
-        {/*  Dangerous Stuff
+        {/*  SCRIPTS
          ==================================================================*/}
-         <script src="/build/bundle.js"></script>
-
+          <script src="/build/bundle.js"></script>
           <script dangerouslySetInnerHTML={{__html:`
             // This is making use of ES6 template strings, which allow for
             // multiline strings. We specified "{jsx: {harmony: true}}" when
