@@ -24,6 +24,8 @@ class Layout extends React.Component {
 
         {/*  Dangerous Stuff
          ==================================================================*/}
+         <script src="/build/bundle.js"></script>
+
           <script dangerouslySetInnerHTML={{__html:`
             // This is making use of ES6 template strings, which allow for
             // multiline strings. We specified "{jsx: {harmony: true}}" when
