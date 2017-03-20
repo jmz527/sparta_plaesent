@@ -29566,9 +29566,9 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Main, 'Main', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
+	  __REACT_HOT_LOADER__.register(Main, 'Main', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/main.js');
 
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
+	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/main.js');
 	}();
 
 	;
@@ -29649,9 +29649,9 @@
 			return;
 		}
 
-		__REACT_HOT_LOADER__.register(Header, "Header", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/header.js");
+		__REACT_HOT_LOADER__.register(Header, "Header", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/header.js");
 
-		__REACT_HOT_LOADER__.register(_default, "default", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/header.js");
+		__REACT_HOT_LOADER__.register(_default, "default", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/header.js");
 	}();
 
 	;
@@ -29712,7 +29712,7 @@
 	  _createClass(Carousel, [{
 	    key: 'render',
 	    value: function render() {
-	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-1.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 1 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
+	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-1.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 1 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 3', src: 'hero-img-3.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 4', src: 'hero-img-4.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
 
 	      var sliderChildren = [];
 	      sliderChildren = imgs.map(function (img, idx) {
@@ -29763,11 +29763,11 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(settings, 'settings', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/carousel.js');
+	  __REACT_HOT_LOADER__.register(settings, 'settings', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/carousel.js');
 
-	  __REACT_HOT_LOADER__.register(Carousel, 'Carousel', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/carousel.js');
+	  __REACT_HOT_LOADER__.register(Carousel, 'Carousel', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/carousel.js');
 
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/carousel.js');
+	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/carousel.js');
 	}();
 
 	;
@@ -32137,9 +32137,9 @@
 					return;
 			}
 
-			__REACT_HOT_LOADER__.register(CarouselItem, "CarouselItem", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/carousel_item.js");
+			__REACT_HOT_LOADER__.register(CarouselItem, "CarouselItem", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/carousel_item.js");
 
-			__REACT_HOT_LOADER__.register(_default, "default", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/carousel_item.js");
+			__REACT_HOT_LOADER__.register(_default, "default", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/carousel_item.js");
 	}();
 
 	;
@@ -32255,15 +32255,15 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(masonryOptions, 'masonryOptions', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
+	  __REACT_HOT_LOADER__.register(masonryOptions, 'masonryOptions', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
 
-	  __REACT_HOT_LOADER__.register(mL, 'mL', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
+	  __REACT_HOT_LOADER__.register(mL, 'mL', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
 
-	  __REACT_HOT_LOADER__.register(mS, 'mS', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
+	  __REACT_HOT_LOADER__.register(mS, 'mS', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
 
-	  __REACT_HOT_LOADER__.register(Grid, 'Grid', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
+	  __REACT_HOT_LOADER__.register(Grid, 'Grid', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
 
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
+	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/james.rutledge/Desktop/sparta_plaesent/app/components/masonry_grid.js');
 	}();
 
 	;
@@ -39588,9 +39588,9 @@
 			return;
 		}
 
-		__REACT_HOT_LOADER__.register(GridItem, "GridItem", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/grid_item.js");
+		__REACT_HOT_LOADER__.register(GridItem, "GridItem", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/grid_item.js");
 
-		__REACT_HOT_LOADER__.register(_default, "default", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/grid_item.js");
+		__REACT_HOT_LOADER__.register(_default, "default", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/grid_item.js");
 	}();
 
 	;
@@ -39684,9 +39684,9 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Footer, "Footer", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/footer.js");
+	  __REACT_HOT_LOADER__.register(Footer, "Footer", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/footer.js");
 
-	  __REACT_HOT_LOADER__.register(_default, "default", "/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/footer.js");
+	  __REACT_HOT_LOADER__.register(_default, "default", "/Users/james.rutledge/Desktop/sparta_plaesent/app/components/footer.js");
 	}();
 
 	;

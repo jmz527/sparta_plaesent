@@ -45,14 +45,12 @@ GET  '/'
 
 # Planning & Wireframes:
 
+![Whiteboard Planning](http://i.imgur.com/FMrz8es.jpg)
 
 # Issues:
 
 - Express Server is a bit of overkill here, caused me some greif
 - Much of the MaterializeCSS framework went unused, flexbox saved the day
-
-
-# TODO:
 
 
 # Directory Tree:

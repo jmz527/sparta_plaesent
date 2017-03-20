@@ -25,6 +25,17 @@ class Grid extends React.Component {
           {title: 'K-pop extraordinary.', presenter: 'LOREM IPSUM', src: 'grid-img-5.png', alt: 'img-5', date: 1484715600000},
       	];
 
+        {/* Sort the elements */}
+        elements = elements.sort(function(a,b) {
+          if (a.date < b.date) {
+            return -1;
+          } else if (a.date > b.date) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+
     childElements = elements.map(function(element, idx){
       d = new Date(element.date);
       date = mL[d.getMonth()] +' '+ d.getDate() +' '+ d.getFullYear();
