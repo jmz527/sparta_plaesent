@@ -29712,7 +29712,7 @@
 	  _createClass(Carousel, [{
 	    key: 'render',
 	    value: function render() {
-	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-2.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-1.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 1 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 3', src: 'hero-img-3.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 4', src: 'hero-img-4.jpg', date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
+	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-2.jpg', bgPos: "50% 25%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-3.jpg', bgPos: "50% 50%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 3', src: 'hero-img-4.jpg', bgPos: "50% 0%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
 
 	      var sliderChildren = [];
 	      sliderChildren = imgs.map(function (img, idx) {
@@ -32095,7 +32095,7 @@
 					value: function render() {
 							return _react2.default.createElement(
 									"div",
-									{ className: "hero-img", style: { backgroundImage: "url('/imgs/" + this.props.img.src + "')", backgroundPosition: "50% 25%" } },
+									{ className: "hero-img", style: { backgroundImage: "url('/imgs/" + this.props.img.src + "')", backgroundPosition: this.props.img.bgPos } },
 									_react2.default.createElement(
 											"div",
 											{ className: "hero-text" },
@@ -32201,6 +32201,17 @@
 	          times = [],
 	          childElements = void 0;
 	      elements = [{ title: 'Bureaux exquisite delightful carefully curated soft power.', presenter: 'LOREM IPSUM', src: 'grid-img-1.png', alt: 'img-1', date: 1486702800000 }, { title: 'Sharp bureaux sleepy K-pop carefully curated.', presenter: 'LOREM IPSUM', src: 'grid-img-2.png', alt: 'img-2', date: 1486011600000 }, { title: 'St Moritz uniforms Beams.', presenter: 'LOREM IPSUM', src: 'grid-img-3.png', alt: 'img-3', date: 1485493200000 }, { title: 'Artisanal iconic cutting-edge business class.', presenter: 'LOREM IPSUM', src: 'grid-img-6.png', alt: 'img-6', date: 1484197200000 }, { title: 'Esse airport veniam ryokan soft power', presenter: 'LOREM IPSUM', src: 'grid-img-4.png', alt: 'img-4', date: 1484974800000 }, { title: 'K-pop extraordinary.', presenter: 'LOREM IPSUM', src: 'grid-img-5.png', alt: 'img-5', date: 1484715600000 }];
+
+	      {/* Sort the elements */}
+	      elements = elements.sort(function (a, b) {
+	        if (a.date < b.date) {
+	          return -1;
+	        } else if (a.date > b.date) {
+	          return 1;
+	        } else {
+	          return 0;
+	        }
+	      });
 
 	      childElements = elements.map(function (element, idx) {
 	        d = new Date(element.date);
