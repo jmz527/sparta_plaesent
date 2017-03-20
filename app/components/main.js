@@ -11,12 +11,6 @@ const Main = () => (
     <Carousel />
     <Grid />
     <Footer />
-
-{/* 
-
-
- */}
-
   </main>
 );
 

@@ -2,6 +2,15 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #masongry_grid {
 
+	.flex-grid {
+		display: flex;
+		justify-content: center;
+	}
+	.flex-grid>div {
+		width: 100%;
+		max-width: 1440px;
+	}
+
 	.image-element-class {
 		display: flex;
 		justify-content: center;
@@ -17,8 +26,6 @@
 		width: 100%;	
 	}
 
-	// img.grid-img {  }
-
 	.grid-heading:hover {
 		text-decoration: underline;
 		cursor: pointer;
@@ -28,6 +35,7 @@
 		color: #767676;
 		font-size: 11px;
 		margin: 30px 0 15px;
+		text-transform: uppercase;
 	}
 
 	span.grid-span {
@@ -41,6 +49,7 @@
 			border-bottom: 1px solid #6d6d6d;
 			padding-bottom: 2px;
 		}
+		a:hover { border-bottom: 1px solid lightblue; }
 	}
 }
 

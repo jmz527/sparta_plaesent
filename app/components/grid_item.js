@@ -1,11 +1,8 @@
 import React from 'react';
 
-
-class Image extends React.Component {
-
+class GridItem extends React.Component {
   constructor(props) {
     super(props);
-
   }
   render() {
   	return (
@@ -19,7 +16,6 @@ class Image extends React.Component {
 		</li>
 	);
   }
-
 };
 
-export default Image;
+export default GridItem;

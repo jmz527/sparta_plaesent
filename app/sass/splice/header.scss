@@ -10,8 +10,20 @@ header {
 	padding: 10px 0 0;
 	z-index: 100;
 
+	.flex-header {
+		display: flex;
+		justify-content: center;
+	}
+	.flex-header div {
+		width: 100%;
+		max-width: 1440px;
+	}
+
 	#logo { padding-left: 10% }
-	#side-menu { padding: 7px 10% 7px 0; }
+	#side-menu {
+		padding: 7px 0;
+		padding-right: 10%;
+	}
 
 	#logo a {
 		float: left;
