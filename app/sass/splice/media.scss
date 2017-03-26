@@ -47,6 +47,13 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+	#masonry_grid .flex-grid>div {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	#masonry_grid .gallery { margin: 0 20px; }
+
 }
 
 /* Custom Media Query - for the carousel */
@@ -115,7 +122,7 @@
 		}
 	}
 
-	#masongry_grid {
+	#masonry_grid {
 		margin-bottom: 0;
 
 		.grid-heading {
