@@ -64,6 +64,7 @@ GET  '/'
 │   ├── components
 │   │   ├── carousel.js
 │   │   ├── carousel_item.js
+│   │   ├── flex_grid.js
 │   │   ├── footer.js
 │   │   ├── grid_item.js
 │   │   ├── header.js
@@ -74,6 +75,8 @@ GET  '/'
 │   │   └── Springville-Regular3.otf
 │   ├── index.js
 │   ├── public
+│   │   ├── favicon.ico
+│   │   ├── flex_grid.css
 │   │   ├── imgs
 │   │   │   ├── grid-img-1.png
 │   │   │   ├── grid-img-2.png
@@ -84,11 +87,13 @@ GET  '/'
 │   │   │   ├── hamburger.png
 │   │   │   ├── hero-img-1.jpg
 │   │   │   ├── hero-img-2.jpg
+│   │   │   ├── hero-img-3.jpg
+│   │   │   ├── hero-img-4.jpg
 │   │   │   ├── hero.png
 │   │   │   ├── logo.eps
 │   │   │   ├── logo.png
-│   │   │   └── logo.svg
-│   │   ├── js/
+│   │   │   ├── logo.svg
+│   │   │   └── sample.png
 │   │   ├── materialize.css
 │   │   └── style.css
 │   └── sass
@@ -97,6 +102,7 @@ GET  '/'
 │       ├── splice
 │       │   ├── base.scss
 │       │   ├── carousel.scss
+│       │   ├── flex_grid.scss
 │       │   ├── footer.scss
 │       │   ├── header.scss
 │       │   ├── masonry_grid.scss
@@ -104,6 +110,8 @@ GET  '/'
 │       └── style.scss
 ├── build
 │   ├── bundle.js
+│   ├── favicon.ico
+│   ├── flex_grid.css
 │   ├── imgs
 │   │   ├── grid-img-1.png
 │   │   ├── grid-img-2.png
@@ -114,18 +122,18 @@ GET  '/'
 │   │   ├── hamburger.png
 │   │   ├── hero-img-1.jpg
 │   │   ├── hero-img-2.jpg
+│   │   ├── hero-img-3.jpg
+│   │   ├── hero-img-4.jpg
 │   │   ├── hero.png
 │   │   ├── logo.eps
 │   │   ├── logo.png
-│   │   └── logo.svg
+│   │   ├── logo.svg
+│   │   └── sample.png
 │   ├── index.html
-│   ├── js/
 │   ├── materialize.css
 │   └── style.css
 ├── gulpfile.js
 ├── package.json
-├── routes
-│   └── index.js
 ├── sample
 │   ├── fonts
 │   │   ├── ACaslonPro-Regular.otf
@@ -135,8 +143,5 @@ GET  '/'
 │   ├── sample.png
 │   └── sample.psd
 ├── server.js
-├── views
-│   ├── index.jsx
-│   └── layout.jsx
 └── webpack.config.js
 ```
