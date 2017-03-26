@@ -1,11 +1,6 @@
 import React from 'react';
-import Masonry from 'react-masonry-component';
 
 import GridItem from './grid_item';
-
-const masonryOptions = {
-    transitionDuration: 0
-};
 
 const mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
@@ -26,45 +21,31 @@ class Grid extends React.Component {
       	];
 
         {/* Sort the elements */}
-        // elements = elements.sort(function(a,b) {
-        //   if (a.date < b.date) {
-        //     return -1;
-        //   } else if (a.date > b.date) {
-        //     return 1;
-        //   } else {
-        //     return 0;
-        //   }
-        // })
+        elements = elements.sort(function(a,b) {
+          if (a.date < b.date) {
+            return -1;
+          } else if (a.date > b.date) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
 
     childElements = elements.map(function(element, idx){
       d = new Date(element.date);
       date = mL[d.getMonth()] +' '+ d.getDate() +' '+ d.getFullYear();
 
        return (
-          <li key={idx} className="grid-item-wrap col s12 m6 l4">
+          <li key={idx} className="flex-item-wrap" style={{}}>
             <GridItem key={idx} title={element.title} pres={element.presenter} src={element.src} alt={element.alt} date={date} />
           </li>
         );
     });
 
     return (
-  		<div id="masonry_grid">
+  		<div id="flex_grid">
         <div className="flex-grid">
-          <div>
-            <div className="container-fluid">
-              <div className="row">
-                <Masonry
-                    className={'gallery'} // default ''
-                    elementType={'ul'} // default 'div'
-                    options={masonryOptions} // default {}
-                    disableImagesLoaded={false} // default false
-                    updateOnEachImageLoad={true} // default false and works only if disableImagesLoaded is false
-                >
-                    {childElements}
-                </Masonry>
-              </div>
-            </div>
-          </div>
+          <ul>{childElements}</ul>
         </div>
   		</div>
     );

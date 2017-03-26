@@ -1,40 +1,47 @@
-/* MASONRY GRID STYLES
+/* FLEX GRID STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#masonry_grid {
+#flex_grid {
 	margin-bottom: 100px;
-
-	.gallery {
-		margin-top: 50px;
-
-		li {
-			padding: 0 20px;
-		}
-	}
+	margin-left: 17px;
 
 	.flex-grid {
+		margin-top: 62px;
 		display: flex;
 		justify-content: center;
 	}
-	.flex-grid>div {
-		margin-left: 17px;
-		width: 81.5%;
+	.flex-grid>ul {
+		margin-left: 5px;
+		// width: 81.5%;
 		// width: 85%;
-		max-width: 1440px;
-	}
+		max-width: 1235px;
 
-	.grid-item-wrap {
+		display: -ms-flexbox;
+		-ms-flex-direction: row;
+		-ms-flex-wrap: wrap;
 		display: flex;
-		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 
-	.grid-item {
-		padding: 27px 0 20px 0;
-		// padding: 27px 0 20px 16px;
-		// width: 250px;
-		// max-width: 363px;
-		// max-width: 350px;
-		// width: 100%;
+	.flex-item-wrap {
+		// width: 348px;
+		// display: inline-block;
+		flex: 1;
+		flex-basis: 33.33%;
+		padding: 0 30px;
+		// display: flex;
+		// justify-content: center;
 	}
+
+	// .grid-item {
+	// 	padding: 27px 0 20px 0;
+	// 	// padding: 27px 0 20px 16px;
+	// 	// width: 250px;
+	// 	// max-width: 363px;
+	// 	// max-width: 350px;
+	// 	// width: 100%;
+	// }
 
 	.grid-img, .grid-date, .grid-heading, .grid-span {
 		display: block;
