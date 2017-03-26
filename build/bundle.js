@@ -29528,7 +29528,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+			value: true
 	});
 
 	var _react = __webpack_require__(298);
@@ -29554,14 +29554,14 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Main = function Main() {
-	  return _react2.default.createElement(
-	    'main',
-	    null,
-	    _react2.default.createElement(_header2.default, null),
-	    _react2.default.createElement(_carousel2.default, null),
-	    _react2.default.createElement(_masonry_grid2.default, null),
-	    _react2.default.createElement(_footer2.default, null)
-	  );
+			return _react2.default.createElement(
+					'main',
+					null,
+					_react2.default.createElement(_header2.default, null),
+					_react2.default.createElement(_carousel2.default, null),
+					_react2.default.createElement(_masonry_grid2.default, null),
+					_react2.default.createElement(_footer2.default, null)
+			);
 	};
 
 	var _default = Main;
@@ -29569,13 +29569,13 @@
 	;
 
 	var _temp = function () {
-	  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-	    return;
-	  }
+			if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+					return;
+			}
 
-	  __REACT_HOT_LOADER__.register(Main, 'Main', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
+			__REACT_HOT_LOADER__.register(Main, 'Main', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
 
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
+			__REACT_HOT_LOADER__.register(_default, 'default', '/Users/jamesrutledge/Desktop/sparta_plaesent/app/components/main.js');
 	}();
 
 	;
@@ -29620,7 +29620,7 @@
 						{ id: "side-menu" },
 						_react2.default.createElement(
 							"a",
-							{ href: "#!" },
+							{ className: "burger", href: "#!" },
 							_react2.default.createElement("img", { src: "/imgs/hamburger.png", alt: "menu" })
 						),
 						_react2.default.createElement(
@@ -29719,7 +29719,7 @@
 	  _createClass(Carousel, [{
 	    key: 'render',
 	    value: function render() {
-	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 1', src: 'hero-img-2.jpg', bgPos: "50% 25%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-3.jpg', bgPos: "50% 50%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 3', src: 'hero-img-4.jpg', bgPos: "50% 0%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
+	      var imgs = [{ type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-4.jpg', bgPos: "50% 0%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 2', src: 'hero-img-3.jpg', bgPos: "50% 50%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }, { type: 'Screening', title: 'DVF Secret Agent Part 3', src: 'hero-img-2.jpg', bgPos: "50% 25%", date: 'October 15, 2017', desc: 'Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.' }];
 
 	      var sliderChildren = [];
 	      sliderChildren = imgs.map(function (img, idx) {
@@ -32209,16 +32209,16 @@
 	          childElements = void 0;
 	      elements = [{ title: 'Bureaux exquisite delightful carefully curated soft power.', presenter: 'LOREM IPSUM', src: 'grid-img-1.png', alt: 'img-1', date: 1486702800000 }, { title: 'Sharp bureaux sleepy K-pop carefully curated.', presenter: 'LOREM IPSUM', src: 'grid-img-2.png', alt: 'img-2', date: 1486011600000 }, { title: 'St Moritz uniforms Beams.', presenter: 'LOREM IPSUM', src: 'grid-img-3.png', alt: 'img-3', date: 1485493200000 }, { title: 'Artisanal iconic cutting-edge business class.', presenter: 'LOREM IPSUM', src: 'grid-img-6.png', alt: 'img-6', date: 1484197200000 }, { title: 'Esse airport veniam ryokan soft power', presenter: 'LOREM IPSUM', src: 'grid-img-4.png', alt: 'img-4', date: 1484974800000 }, { title: 'K-pop extraordinary.', presenter: 'LOREM IPSUM', src: 'grid-img-5.png', alt: 'img-5', date: 1484715600000 }];
 
-	      {/* Sort the elements */}
-	      elements = elements.sort(function (a, b) {
-	        if (a.date < b.date) {
-	          return -1;
-	        } else if (a.date > b.date) {
-	          return 1;
-	        } else {
-	          return 0;
-	        }
-	      });
+	      {} /* Sort the elements */
+	      // elements = elements.sort(function(a,b) {
+	      //   if (a.date < b.date) {
+	      //     return -1;
+	      //   } else if (a.date > b.date) {
+	      //     return 1;
+	      //   } else {
+	      //     return 0;
+	      //   }
+	      // })
 
 	      childElements = elements.map(function (element, idx) {
 	        d = new Date(element.date);
@@ -32245,7 +32245,7 @@
 	                _react2.default.createElement(
 	                  _reactMasonryComponent2.default,
 	                  {
-	                    className: 'my-gallery-class' // default ''
+	                    className: 'gallery' // default ''
 	                    , elementType: 'ul' // default 'div'
 	                    , options: masonryOptions // default {}
 	                    , disableImagesLoaded: false // default false
@@ -39562,7 +39562,7 @@
 			value: function render() {
 				return _react2.default.createElement(
 					"li",
-					{ className: "image-element-class col s12 m6 l4" },
+					{ className: "grid-item-wrap col s12 m6 l4" },
 					_react2.default.createElement(
 						"div",
 						{ className: "grid-item" },
@@ -40551,7 +40551,7 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";a,body{color:#767676}body,header{background-color:#fff}#carousel div.carousel-wrap,header .flex-header div{width:100%;max-width:1440px}body,div#react-root,div#root,html{height:100%;width:100%}body{font-family:Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Springville;color:#131313;margin:0}p{font-family:\"Adobe Caslon Pro\";color:#131313}h2{font-size:48px}a:hover{color:#add8e6}main{padding-top:50px}.row .col{padding:0}.row{margin-bottom:0}header{position:fixed;top:0;left:0;right:0;height:50px;padding:10px 0 0;z-index:100}header .flex-header{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#carousel div.carousel-flex,#masongry_grid .flex-grid{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox}header #logo{padding-left:10%}header #side-menu{padding:7px 10% 7px 0}header #logo a{float:left;margin:0}header #side-menu a{margin:0 0 0 25px;font-size:11px;float:right;text-transform:uppercase}#carousel{height:auto;overflow:hidden}#carousel div.carousel-flex{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#carousel div.carousel-wrap{padding-bottom:25px}#carousel .hero-wrap h3,#carousel .hero-wrap h5{white-space:nowrap}#carousel .hero-wrap h3,#carousel .hero-wrap h5,#carousel .hero-wrap p{color:#fff}#carousel .hero-wrap p{width:55%}#carousel .hero-wrap .hero-img{background-size:cover;height:400px;position:relative}#carousel .hero-wrap div.hero-text{position:absolute;bottom:30px;left:50px;z-index:500}#carousel div.scrim{background:rgba(0,0,0,.2);position:absolute;top:0;left:0;right:0;width:100%;height:100%;z-index:200}#masongry_grid .flex-grid{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#masongry_grid .flex-grid>div{width:100%;max-width:1440px}#masongry_grid .image-element-class{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#masongry_grid .grid-item{padding:20px 0;width:250px}#masongry_grid .grid-date,#masongry_grid .grid-heading,#masongry_grid .grid-img,#masongry_grid .grid-span{display:block;width:100%}#masongry_grid .grid-heading:hover{text-decoration:underline;cursor:pointer}#masongry_grid date.grid-date{color:#767676;font-size:11px;margin:30px 0 15px;text-transform:uppercase}#masongry_grid span.grid-span{border-bottom:1px solid #dbdbdb;color:#6d6d6d;font-size:14px;margin:15px 0;padding-bottom:40px}#masongry_grid span.grid-span a{border-bottom:1px solid #6d6d6d;padding-bottom:2px}#masongry_grid span.grid-span a:hover{border-bottom:1px solid #add8e6}footer{padding:65px 0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}footer a,footer span{color:#131313}footer a{text-decoration:underline}footer span{text-transform:uppercase;font-size:12px}footer span.foot-text{text-align:center}footer br{display:none}@media only screen and (min-width:601px){header{height:100px;padding:45px 0 0}main{padding-top:100px}#side-menu{padding:10px 10% 7px 0}}@media only screen and (max-width:600px){#carousel div.carousel-wrap{height:auto}#carousel div.slick-track{height:-moz-calc(100vw / 1.33333);height:calc(100vw / 1.33333)}#carousel .hero-wrap h3{font-size:30px}#carousel .hero-wrap h5{font-size:15px}#carousel .hero-wrap p{font-size:11px;width:70%}#carousel .hero-wrap div.hero-text{bottom:130px;left:50px}footer{padding:30px 0 65px}footer br{display:inherit}}", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";a,body{color:#767676}body,header{background-color:#fff}#carousel div.carousel-wrap,header .flex-header div{width:100%;max-width:1440px}body,div#react-root,div#root,html{height:100%;width:100%}body{font-family:Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Springville;color:#131313;margin:0}#carousel .hero-wrap h5,#masongry_grid span.grid-span,p{font-family:\"Adobe Caslon Pro\"}p{color:#131313}h2{font-size:48px}a:hover{color:#add8e6}main{padding-top:50px}.row .col{padding:0}.row{margin-bottom:0}header{position:fixed;top:0;left:0;right:0;height:50px;padding:5px 0 0;z-index:100}header .flex-header{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#carousel div.carousel-flex,#masongry_grid .flex-grid{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox}header #logo{padding-left:10%}header #side-menu{padding:12px 9% 7px 0}header #logo a{float:left;margin:5px 0 0 2px}header #side-menu a{margin:0 0 0 19px;font-size:11px;float:right;text-transform:uppercase}header #side-menu a.burger{margin-left:21px;padding-top:2px}#carousel{height:auto;overflow:hidden}#carousel div.carousel-flex{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#carousel div.carousel-wrap{padding-bottom:25px}#carousel .hero-wrap h3,#carousel .hero-wrap h5{white-space:nowrap}#carousel .hero-wrap h3,#carousel .hero-wrap h5,#carousel .hero-wrap p{color:#fff;word-spacing:1px}#carousel .hero-wrap h3{font-size:60px;line-height:60px;margin-bottom:17px;word-spacing:0}#carousel .hero-wrap h5{font-weight:200;font-size:28px;letter-spacing:.5px;margin-bottom:14px}#carousel .hero-wrap p{width:60%;margin:0;font-size:17.5px}#carousel .hero-wrap .hero-img{background-size:cover;height:600px;position:relative}#carousel .hero-wrap div.hero-text{position:absolute;bottom:133px;left:139px;z-index:500}#carousel div.scrim{background:rgba(0,0,0,.2);position:absolute;top:0;left:0;right:0;width:100%;height:100%;z-index:200}#carousel .slick-dots li button:before{font-size:13px;top:4px;left:9px}#masongry_grid{margin-bottom:100px}#masongry_grid .gallery{margin-top:50px}#masongry_grid .gallery li{padding:0 20px}#masongry_grid .flex-grid{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#masongry_grid .flex-grid>div{margin-left:17px;width:81.5%;max-width:1440px}#masongry_grid .grid-item-wrap{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}#masongry_grid .grid-item{padding:27px 0 20px}#masongry_grid .grid-date,#masongry_grid .grid-heading,#masongry_grid .grid-img,#masongry_grid .grid-span{display:block;width:100%}#masongry_grid .grid-heading:hover{text-decoration:underline;cursor:pointer}#masongry_grid date.grid-date{color:#767676;font-size:11px;margin:47px 0 31px;text-transform:uppercase}#masongry_grid span.grid-span{border-bottom:1px solid #dbdbdb;color:#6d6d6d;font-size:14px;margin:15px 0;padding-bottom:45px}#masongry_grid span.grid-span a{border-bottom:1px solid #6d6d6d;padding-bottom:2px}#masongry_grid span.grid-span a:hover{border-bottom:1px solid #add8e6}footer{padding:54px 0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}footer a,footer span{color:#131313}footer a{text-decoration:underline}footer span{text-transform:uppercase;font-size:12px}footer span.foot-text{text-align:center;font-size:11px;padding-left:17px}footer br{display:none}@media only screen and (min-width:601px){header{height:121px;padding:45px 0 0}main{padding-top:100px}#side-menu{padding:10px 10% 7px 0}}@media only screen and (max-width:800px){#carousel div.carousel-wrap{height:auto}#carousel div.slick-track{height:-moz-calc(100vw / 1.33333);height:calc(100vw / 1.33333)}#carousel .hero-wrap h3{font-size:45px;line-height:45px;margin-bottom:10px}#carousel .hero-wrap h5{font-size:20px;line-height:20px;margin-bottom:10px}#carousel .hero-wrap p{font-size:14px;line-height:14px;width:70%}#carousel .hero-wrap div.hero-text{position:relative;float:left;top:30%;left:50px}}@media only screen and (max-width:600px){#carousel .hero-wrap h3{font-size:30px;line-height:30px}#carousel .hero-wrap h5{font-size:15px;line-height:15px}#carousel .hero-wrap p{font-size:12px}#carousel .hero-wrap div.hero-text{position:relative;float:left;top:20%;left:30px}#masongry_grid{margin-bottom:0}#masongry_grid .grid-heading{font-size:27px}footer{padding:30px 0 65px}footer br{display:inherit}}", ""]);
 
 	// exports
 

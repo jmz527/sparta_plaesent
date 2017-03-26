@@ -26,15 +26,15 @@ class Grid extends React.Component {
       	];
 
         {/* Sort the elements */}
-        elements = elements.sort(function(a,b) {
-          if (a.date < b.date) {
-            return -1;
-          } else if (a.date > b.date) {
-            return 1;
-          } else {
-            return 0;
-          }
-        })
+        // elements = elements.sort(function(a,b) {
+        //   if (a.date < b.date) {
+        //     return -1;
+        //   } else if (a.date > b.date) {
+        //     return 1;
+        //   } else {
+        //     return 0;
+        //   }
+        // })
 
     childElements = elements.map(function(element, idx){
       d = new Date(element.date);

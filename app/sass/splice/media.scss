@@ -49,8 +49,8 @@
 
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 600px) {
+/* Custom Media Query - for the carousel */
+@media only screen and (max-width : 800px) {
 
 	#carousel {
 		div.carousel-wrap { height: auto; }
@@ -60,16 +60,66 @@
 		}
 
 		.hero-wrap {
-			h3 { font-size: 30px; }
-			h5 { font-size: 15px; }
-			p { font-size: 11px; }
-
-			p { width: 70% }
+			h3 {
+				font-size: 45px;
+				line-height: 45px;
+				margin-bottom: 10px;
+			}
+			h5 {
+				font-size: 20px;
+				line-height: 20px;
+				margin-bottom: 10px;
+			}
+			p {
+				font-size: 14px;
+				line-height: 14px;
+				width: 70%;
+			}
 
 			div.hero-text {
-				bottom: 130px;
+				position: relative;
+				float: left;
+				top: 30%;
 				left: 50px;
 			}
+		}
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 600px) {
+
+	#carousel {
+
+		.hero-wrap {
+			h3 {
+				font-size: 30px;
+				line-height: 30px;
+			}
+			h5 {
+				font-size: 15px;
+				line-height: 15px;
+			}
+			p {
+				font-size: 12px;
+				// line-height: 12px;
+			}
+
+			div.hero-text {
+				position: relative;
+				float: left;
+				top: 20%;
+				left: 30px;
+			}
+		}
+	}
+
+	#masongry_grid {
+		margin-bottom: 0;
+
+		.grid-heading {
+			font-size: 27px;
 		}
 	}
 
