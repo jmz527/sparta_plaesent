@@ -1,24 +1,39 @@
 /* MASONRY GRID STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #masongry_grid {
+	margin-bottom: 100px;
+
+	.gallery {
+		margin-top: 50px;
+
+		li {
+			padding: 0 20px;
+		}
+	}
 
 	.flex-grid {
 		display: flex;
 		justify-content: center;
 	}
 	.flex-grid>div {
-		width: 100%;
+		margin-left: 17px;
+		width: 81.5%;
+		// width: 85%;
 		max-width: 1440px;
 	}
 
-	.image-element-class {
+	.grid-item-wrap {
 		display: flex;
 		justify-content: center;
 	}
 
 	.grid-item {
-		padding: 20px 0;
-		width: 250px;
+		padding: 27px 0 20px 0;
+		// padding: 27px 0 20px 16px;
+		// width: 250px;
+		// max-width: 363px;
+		// max-width: 350px;
+		// width: 100%;
 	}
 
 	.grid-img, .grid-date, .grid-heading, .grid-span {
@@ -34,16 +49,17 @@
 	date.grid-date {
 		color: #767676;
 		font-size: 11px;
-		margin: 30px 0 15px;
+		margin: 47px 0 31px;
 		text-transform: uppercase;
 	}
 
 	span.grid-span {
 		border-bottom: 1px solid #dbdbdb;
+		font-family: "Adobe Caslon Pro";
 		color: #6d6d6d;
 		font-size: 14px;
 		margin: 15px 0;
-		padding-bottom: 40px;
+		padding-bottom: 45px;
 
 		a {
 			border-bottom: 1px solid #6d6d6d;

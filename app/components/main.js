@@ -13,12 +13,14 @@ const Main = () => (
 	  	opacity: "0.6",
 	  	position: "absolute",
 	  	zIndex: 5000,
-	  	top: "0", left: "0", right: "0", width: "100%", minHeight: "100%"}}/>
+	  	top: "0", left: "0", right: "0", width: "100%", minHeight: "2725px"}}/>
+
 
     <Header />
     <Carousel />
     <Grid />
     <Footer />
+
   </main>
 );
 

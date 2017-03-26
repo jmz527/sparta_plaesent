@@ -8,7 +8,7 @@ const Header = () => (
 					<a href="#!"><img src="/imgs/logo.svg" alt="Sparta Plaesent"/></a>
 				</div>
 				<div id="side-menu">
-					<a href="#!"><img src="/imgs/hamburger.png" alt="menu"/></a>
+					<a className="burger" href="#!"><img src="/imgs/hamburger.png" alt="menu"/></a>
 					<a className="hide-on-small-only" href="#!"><span className="btn-span">login</span></a>
 					<a className="hide-on-small-only" href="#!"><tel>212.555.5555</tel></a>
 				</div>

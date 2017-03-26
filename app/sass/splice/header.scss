@@ -20,21 +20,19 @@ header {
 	}
 
 	#logo { padding-left: 10% }
-	#side-menu {
-		padding: 7px 0;
-		padding-right: 10%;
-	}
+	#side-menu { padding: 12px 9% 7px 0; }
 
 	#logo a {
 		float: left;
-		margin: 0;
+		margin: 5px 0 0 2px;
 	}
 
 	#side-menu a {
-		margin: 0 0 0 25px;
+		margin: 0 0 0 19px;
 		font-size: 11px;
 		float: right;
 		text-transform: uppercase;
 	}
+	#side-menu a.burger { margin-left: 21px; padding-top: 2px; }
 }
 

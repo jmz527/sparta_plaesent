@@ -6,7 +6,7 @@ class GridItem extends React.Component {
   }
   render() {
   	return (
-		<li className="image-element-class col s12 m6 l4">
+		<li className="grid-item-wrap col s12 m6 l4">
 			<div className="grid-item">
 				<img className="grid-img" src={'/imgs/'+this.props.src} alt={this.props.alt} />
 				<date className="grid-date">{this.props.date}</date>

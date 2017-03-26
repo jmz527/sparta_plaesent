@@ -50,7 +50,7 @@ class Grid extends React.Component {
             <div className="container-fluid">
               <div className="row">
                 <Masonry
-                    className={'my-gallery-class'} // default ''
+                    className={'gallery'} // default ''
                     elementType={'ul'} // default 'div'
                     options={masonryOptions} // default {}
                     disableImagesLoaded={false} // default false
